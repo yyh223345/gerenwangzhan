@@ -1,0 +1,7 @@
+# Cloudflare Workers 静态资产部署配置（新版 Pages 流程）
+# 构建命令 npm run build 生成 dist/ 后，wrangler 把 dist/ 作为资产目录部署
+name = "gerenwangzhan"
+compatibility_date = "2026-10-10"
+
+[assets]
+directory = "./dist"
