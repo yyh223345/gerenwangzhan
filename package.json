@@ -1,0 +1,11 @@
+{
+  "name": "chengying-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "承影作品展示站 — 单文件静态站，Node.js 构建脚本",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js",
+    "build": "node build.js"
+  }
+}
